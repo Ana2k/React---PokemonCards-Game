@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import './Pokecard.css'
 // API CALLING 
 //we will put up nicer images later.
 
