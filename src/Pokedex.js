@@ -15,10 +15,20 @@ class Pokedex extends Component{
                 {id: 133, name: 'Eevee', type: 'normal', base_experience: 65}
         ]
     };
+    
     render(){
+        let title;
+        if(this.props.isWinner){
+            title = <h1 className = "Pokedex-Winner">WINNING HAND</h1>
+        }else{
+            title = <h1 className = "Pokedex-Loser">LOSING HAND</h1> 
+        }
         return (
         <div className="Pokedex">
-            <h1>Pokedex!</h1>
+            {/* <h1>Pokedex!</h1> */}
+            {/* <p>Total Experience: {this.props.exp}</p>  */}
+            {/* <p className = {this.props.isWinner ? "Pokedex-Winner":"Pokedex-Loser"}>{this.props.isWinner ? 'WINNING HAND' : 'LOSING HAND'}</p> */}
+            {title}
             <div className='Pokedex-cards'>
             {this.props.pokemon.map( (p)=>(
                 <Pokecard id={p.id} name={p.name} type={p.type} exp={p.base_experience}/>

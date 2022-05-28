@@ -2,7 +2,6 @@ import React,{Component} from 'react';
 import './Pokecard.css'
 // API CALLING 
 
-// const POKEMON_IMAGE_API =
 // 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/';
 const POKEMON_IMAGE_API = "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/";
 let padToThree  = (number) =>(number <=999 ? `00${number}`.slice(-3): number);

@@ -2,12 +2,12 @@
     // fancier images link https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${id}.png
     import React,{Component} from 'react';
     import './App.css';
-    import Pokedex from './Pokedex'
-// #run 1 
+    import Pokegame from './Pokegame';
+    
     function App() {
     return (
         <div className="App">
-        <Pokedex />
+        <Pokegame />
         </div>
     );
     }

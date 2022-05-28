@@ -2,5 +2,10 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-
+}
+.Pokedex-Winner{
+    color : rgba(18, 92, 34, 0.884)
+}
+.Pokedex-Loser{
+    color : rgba(26, 28, 161, 0.911)
 }
