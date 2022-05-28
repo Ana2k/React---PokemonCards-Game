@@ -1,5 +1,6 @@
-.Pokedex_card{
+.Pokedex-cards{
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap ;
+    flex-wrap: wrap;
+
 }
