@@ -1,4 +1,5 @@
     // instructions page file:///home/ana/Desktop/reactjs/react-bootcamp-materials/05-pokedex-project/pokedex-exericse-handout/index.html
+    // fancier images link https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${id}.png
     import React,{Component} from 'react';
     import './App.css';
     import Pokedex from './Pokedex'
